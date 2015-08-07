@@ -2,12 +2,13 @@ class String
   define_method(:word_count) do |word|
 
   initial_string = self
-  initial_array = initial_string.downcase!().split()
+  downcase_string = initial_string.downcase()
+  initial_array = downcase_string.split()
 
     if initial_array.include?(word)
       initial_array.count(word)
     else
-      "Word not found!"
+      0
     end
   end
 end
