@@ -1,16 +1,20 @@
 class String
-  define_method(:word_count) do 
+  define_method(:word_count) do |word|
     # special_char_array = [".", ",", "!", "-", "&", ":", "''",]
     # bad_char_array = []
     # no_special_char_array = []
     initial_string = self
-    initial_array = initial_string.downcase!.split()
+    initial_array = initial_string.downcase!().split()
+
     # count = 0
-    # until initial_array=[-1]
-    #   if initial_array.incl?(word)
-    #     count=count.+(1)
-    #   end
-    # end
+      if initial_array.include?(word)
+        true
+        # until initial_array=[-1]
+        # count = count + 1
+      else
+        false
+      end
+
   end
 end
 

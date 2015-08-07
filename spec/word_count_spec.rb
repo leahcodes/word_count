@@ -10,9 +10,9 @@ describe('String#word_count') do
     expect(("Dog eat dog.").word_count).to(eq(["dog", "eat", "dog."]))
   end
 
-  # it ('loops through the array to see if the argument is included in the array') do
-  #   expect("Dog eat dog.".word_count("dog")).to(eq([true]))
-  # end
+  it ('loops through the array to see if the argument is included in the array') do
+    expect("Dog eat dog.".word_count("dog")).to(eq(true))
+  end
 
   # it ('handles special characters') do
   #   expect(("Dog eat dog!!").word_count).to(eq("dog eat dog"))
