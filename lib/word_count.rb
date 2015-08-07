@@ -1,25 +1,31 @@
 class String
   define_method(:word_count) do |word|
-    # special_char_array = [".", ",", "!", "-", "&", ":", "''",]
-    # bad_char_array = []
-    # no_special_char_array = []
-    initial_string = self
-    initial_array = initial_string.downcase!().split()
 
-    # count = 0
-      if initial_array.include?(word)
-        true
-        # until initial_array=[-1]
-        # count = count + 1
-      else
-        false
-      end
+  initial_string = self
+  initial_array = initial_string.downcase!().split()
 
+    if initial_array.include?(word)
+      initial_array.count(word)
+    else
+      "Word not found!"
+    end
   end
 end
 
+      # initial_array.each() do |initial_word|
+      #   until initial_array.at(-1) do
+      #     initial_word == second_word
+      #   end
+      #   returns count
+      # end
+
+
+
     # .join().split("")
 
+    # special_char_array = [".", ",", "!", "-", "&", ":", "''",]
+    # bad_char_array = []
+    # no_special_char_array = []
 
     # special_char_array.each() do |special|
     #   if initial_array.eql?(special)
