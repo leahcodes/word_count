@@ -17,10 +17,10 @@ _This app is running live on Heroku at http://enigmatic-waters-2132.herokuapp.co
 
 ## Technologies Used
 
-_Ruby_
-_HTML_
-_CSS with Bootstrap_
-_Heroku_
+Ruby
+HTML
+CSS with Bootstrap
+Heroku
 
 ### Legal
 
