@@ -7,6 +7,7 @@
 ## Description
 
 _This web app allows users to count the number of times a word occurs in a phrase. For example, they input the phrase "dog eat dog" and the word "dog" and the next page will tell them that the word "dog" occurs 2 times in the phrase._
+_This app is running live on Heroku at http://enigmatic-waters-2132.herokuapp.com/_
 
 ## Setup
 
@@ -19,6 +20,7 @@ _This web app allows users to count the number of times a word occurs in a phras
 _Ruby_
 _HTML_
 _CSS with Bootstrap_
+_Heroku_
 
 ### Legal
 
